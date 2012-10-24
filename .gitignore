@@ -1,0 +1,12 @@
+.rake_test_cache
+metadata.json
+*.swp
+.DS_Store
+kickstart/*.ks
+.rbenv-version
+vendor/ruby
+.bundle/
+vendor/cache/
+bin/
+tmux*log
+1
