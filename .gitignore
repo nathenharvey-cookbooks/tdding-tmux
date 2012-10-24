@@ -10,3 +10,4 @@ vendor/cache/
 bin/
 tmux*log
 1
+.colander

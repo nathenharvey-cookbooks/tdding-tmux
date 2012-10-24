@@ -343,6 +343,8 @@ Writing the First Spec
     chefspec: bundle exec rspec $SANDBOX/$COOKBOOK
     ```
 
+    Also, add '.colander' to your `.gitignore`.
+
     Strainer exposes the `$COOKBOOK` and `$SANDBOX` environment variables. Oh yea, I forgot about the best part of strainer - it sandboxes all your tests, and only includes the cookbooks you tell it to test (and associated dependencies). Which reminds me, hey @opscode peeps - can haz recipe-level dependencies plz!?
 
     Now we can use a single command `strain` for running these tests:
